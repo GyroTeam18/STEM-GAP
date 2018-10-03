@@ -81,6 +81,7 @@
 				A4D191DC21655C6B0077788D /* STEM GAPTests */,
 				A4D191E721655C6B0077788D /* STEM GAPUITests */,
 				A4D191C621655C690077788D /* Products */,
+				A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,7 +120,6 @@
 		A4D191E721655C6B0077788D /* STEM GAPUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */,
 				A4D191EA21655C6B0077788D /* Info.plist */,
 			);
 			path = "STEM GAPUITests";
