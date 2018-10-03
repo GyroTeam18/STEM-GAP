@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4D191C921655C690077788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191C821655C690077788D /* AppDelegate.swift */; };
+		A4D191CB21655C690077788D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191CA21655C690077788D /* ViewController.swift */; };
+		A4D191CE21655C690077788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CC21655C690077788D /* Main.storyboard */; };
+		A4D191D021655C6B0077788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CF21655C6B0077788D /* Assets.xcassets */; };
+		A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191D121655C6B0077788D /* LaunchScreen.storyboard */; };
+		A4D191DE21655C6B0077788D /* STEM_GAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191DD21655C6B0077788D /* STEM_GAPTests.swift */; };
+		A4D191E921655C6B0077788D /* STEM_GAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4D191DA21655C6B0077788D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D191BD21655C690077788D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D191C421655C690077788D;
+			remoteInfo = "STEM GAP";
+		};
+		A4D191E521655C6B0077788D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4D191BD21655C690077788D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4D191C421655C690077788D;
+			remoteInfo = "STEM GAP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4D191C521655C690077788D /* STEM GAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM GAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D191C821655C690077788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D191CA21655C690077788D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D191CD21655C690077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D191CF21655C6B0077788D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D191D221655C6B0077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D191D421655C6B0077788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D191D921655C6B0077788D /* STEM GAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEM GAPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D191DD21655C6B0077788D /* STEM_GAPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEM_GAPTests.swift; sourceTree = "<group>"; };
+		A4D191DF21655C6B0077788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D191E421655C6B0077788D /* STEM GAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEM GAPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEM_GAPUITests.swift; sourceTree = "<group>"; };
+		A4D191EA21655C6B0077788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D191C221655C690077788D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191D621655C6B0077788D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191E121655C6B0077788D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4D191BC21655C690077788D = {
+			isa = PBXGroup;
+			children = (
+				A4D191C721655C690077788D /* STEM GAP */,
+				A4D191DC21655C6B0077788D /* STEM GAPTests */,
+				A4D191E721655C6B0077788D /* STEM GAPUITests */,
+				A4D191C621655C690077788D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D191C621655C690077788D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D191C521655C690077788D /* STEM GAP.app */,
+				A4D191D921655C6B0077788D /* STEM GAPTests.xctest */,
+				A4D191E421655C6B0077788D /* STEM GAPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D191C721655C690077788D /* STEM GAP */ = {
+			isa = PBXGroup;
+			children = (
+				A4D191C821655C690077788D /* AppDelegate.swift */,
+				A4D191CA21655C690077788D /* ViewController.swift */,
+				A4D191CC21655C690077788D /* Main.storyboard */,
+				A4D191CF21655C6B0077788D /* Assets.xcassets */,
+				A4D191D121655C6B0077788D /* LaunchScreen.storyboard */,
+				A4D191D421655C6B0077788D /* Info.plist */,
+			);
+			path = "STEM GAP";
+			sourceTree = "<group>";
+		};
+		A4D191DC21655C6B0077788D /* STEM GAPTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D191DD21655C6B0077788D /* STEM_GAPTests.swift */,
+				A4D191DF21655C6B0077788D /* Info.plist */,
+			);
+			path = "STEM GAPTests";
+			sourceTree = "<group>";
+		};
+		A4D191E721655C6B0077788D /* STEM GAPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */,
+				A4D191EA21655C6B0077788D /* Info.plist */,
+			);
+			path = "STEM GAPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D191C421655C690077788D /* STEM GAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D191ED21655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAP" */;
+			buildPhases = (
+				A4D191C121655C690077788D /* Sources */,
+				A4D191C221655C690077788D /* Frameworks */,
+				A4D191C321655C690077788D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STEM GAP";
+			productName = "STEM GAP";
+			productReference = A4D191C521655C690077788D /* STEM GAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4D191D821655C6B0077788D /* STEM GAPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D191F021655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPTests" */;
+			buildPhases = (
+				A4D191D521655C6B0077788D /* Sources */,
+				A4D191D621655C6B0077788D /* Frameworks */,
+				A4D191D721655C6B0077788D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D191DB21655C6B0077788D /* PBXTargetDependency */,
+			);
+			name = "STEM GAPTests";
+			productName = "STEM GAPTests";
+			productReference = A4D191D921655C6B0077788D /* STEM GAPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A4D191E321655C6B0077788D /* STEM GAPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D191F321655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPUITests" */;
+			buildPhases = (
+				A4D191E021655C6B0077788D /* Sources */,
+				A4D191E121655C6B0077788D /* Frameworks */,
+				A4D191E221655C6B0077788D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4D191E621655C6B0077788D /* PBXTargetDependency */,
+			);
+			name = "STEM GAPUITests";
+			productName = "STEM GAPUITests";
+			productReference = A4D191E421655C6B0077788D /* STEM GAPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D191BD21655C690077788D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MSU;
+				TargetAttributes = {
+					A4D191C421655C690077788D = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A4D191D821655C6B0077788D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A4D191C421655C690077788D;
+					};
+					A4D191E321655C6B0077788D = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A4D191C421655C690077788D;
+					};
+				};
+			};
+			buildConfigurationList = A4D191C021655C690077788D /* Build configuration list for PBXProject "STEM GAP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D191BC21655C690077788D;
+			productRefGroup = A4D191C621655C690077788D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D191C421655C690077788D /* STEM GAP */,
+				A4D191D821655C6B0077788D /* STEM GAPTests */,
+				A4D191E321655C6B0077788D /* STEM GAPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D191C321655C690077788D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */,
+				A4D191D021655C6B0077788D /* Assets.xcassets in Resources */,
+				A4D191CE21655C690077788D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191D721655C6B0077788D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191E221655C6B0077788D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D191C121655C690077788D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D191CB21655C690077788D /* ViewController.swift in Sources */,
+				A4D191C921655C690077788D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191D521655C6B0077788D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D191DE21655C6B0077788D /* STEM_GAPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4D191E021655C6B0077788D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D191E921655C6B0077788D /* STEM_GAPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4D191DB21655C6B0077788D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D191C421655C690077788D /* STEM GAP */;
+			targetProxy = A4D191DA21655C6B0077788D /* PBXContainerItemProxy */;
+		};
+		A4D191E621655C6B0077788D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4D191C421655C690077788D /* STEM GAP */;
+			targetProxy = A4D191E521655C6B0077788D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4D191CC21655C690077788D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D191CD21655C690077788D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D191D121655C6B0077788D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D191D221655C6B0077788D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D191EB21655C6B0077788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D191EC21655C6B0077788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D191EE21655C6B0077788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A4D191EF21655C6B0077788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A4D191F121655C6B0077788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEM GAP.app/STEM GAP";
+			};
+			name = Debug;
+		};
+		A4D191F221655C6B0077788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAPTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEM GAP.app/STEM GAP";
+			};
+			name = Release;
+		};
+		A4D191F421655C6B0077788D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STEM GAP";
+			};
+			name = Debug;
+		};
+		A4D191F521655C6B0077788D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "STEM GAPUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STEM GAP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D191C021655C690077788D /* Build configuration list for PBXProject "STEM GAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D191EB21655C6B0077788D /* Debug */,
+				A4D191EC21655C6B0077788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D191ED21655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D191EE21655C6B0077788D /* Debug */,
+				A4D191EF21655C6B0077788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D191F021655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D191F121655C6B0077788D /* Debug */,
+				A4D191F221655C6B0077788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D191F321655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D191F421655C6B0077788D /* Debug */,
+				A4D191F521655C6B0077788D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4D191BD21655C690077788D /* Project object */;
+}
