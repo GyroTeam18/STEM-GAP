@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6C8D16264C1E950EFFC0E8 /* Pods_STEM_GAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41737E4733B6D612E3D7DBB1 /* Pods_STEM_GAP.framework */; };
+		A0681B3ACEB804AF3AFD0714 /* Pods_STEM_GAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */; };
 		A4D191C921655C690077788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191C821655C690077788D /* AppDelegate.swift */; };
 		A4D191CB21655C690077788D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191CA21655C690077788D /* ViewController.swift */; };
 		A4D191CE21655C690077788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CC21655C690077788D /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191D121655C6B0077788D /* LaunchScreen.storyboard */; };
 		A4D191DE21655C6B0077788D /* STEM_GAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191DD21655C6B0077788D /* STEM_GAPTests.swift */; };
 		A4D191E921655C6B0077788D /* STEM_GAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */; };
+		BEB1E179BAF3B0C468AA2C79 /* Pods_STEM_GAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223BEA5565C2F0D650186EBD /* Pods_STEM_GAPUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1AF9741E32A64999755EB716 /* Pods-STEM GAPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPTests/Pods-STEM GAPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		223BEA5565C2F0D650186EBD /* Pods_STEM_GAPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEM_GAPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FC4D18F22D5E99EBDB29BE /* Pods-STEM GAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP.debug.xcconfig"; sourceTree = "<group>"; };
+		3F49B2FB81707A871490845B /* Pods-STEM GAPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPUITests/Pods-STEM GAPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41737E4733B6D612E3D7DBB1 /* Pods_STEM_GAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEM_GAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEM_GAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F975E71C778846690A8404D /* Pods-STEM GAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPUITests/Pods-STEM GAPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A4D191C521655C690077788D /* STEM GAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM GAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191C821655C690077788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D191CA21655C690077788D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		A4D191E421655C6B0077788D /* STEM GAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEM GAPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEM_GAPUITests.swift; sourceTree = "<group>"; };
 		A4D191EA21655C6B0077788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC552AFA27C3C95F8CF9B8E5 /* Pods-STEM GAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP.release.xcconfig"; sourceTree = "<group>"; };
+		BCE00F3EBACB1AD87E698E04 /* Pods-STEM GAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPTests/Pods-STEM GAPTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6C8D16264C1E950EFFC0E8 /* Pods_STEM_GAP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0681B3ACEB804AF3AFD0714 /* Pods_STEM_GAPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB1E179BAF3B0C468AA2C79 /* Pods_STEM_GAPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DA2058C99D63B008290B639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32FC4D18F22D5E99EBDB29BE /* Pods-STEM GAP.debug.xcconfig */,
+				BC552AFA27C3C95F8CF9B8E5 /* Pods-STEM GAP.release.xcconfig */,
+				1AF9741E32A64999755EB716 /* Pods-STEM GAPTests.debug.xcconfig */,
+				BCE00F3EBACB1AD87E698E04 /* Pods-STEM GAPTests.release.xcconfig */,
+				3F49B2FB81707A871490845B /* Pods-STEM GAPUITests.debug.xcconfig */,
+				6F975E71C778846690A8404D /* Pods-STEM GAPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A4D191BC21655C690077788D = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +110,8 @@
 				A4D191E721655C6B0077788D /* STEM GAPUITests */,
 				A4D191C621655C690077788D /* Products */,
 				A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */,
+				8DA2058C99D63B008290B639 /* Pods */,
+				E4A6E19A271106B88F6895E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "STEM GAPUITests";
 			sourceTree = "<group>";
 		};
+		E4A6E19A271106B88F6895E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41737E4733B6D612E3D7DBB1 /* Pods_STEM_GAP.framework */,
+				47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */,
+				223BEA5565C2F0D650186EBD /* Pods_STEM_GAPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4D191ED21655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAP" */;
 			buildPhases = (
+				058ECBA5FD328BDBAF21923F /* [CP] Check Pods Manifest.lock */,
 				A4D191C121655C690077788D /* Sources */,
 				A4D191C221655C690077788D /* Frameworks */,
 				A4D191C321655C690077788D /* Resources */,
+				64E59C504E880345CB942E8F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4D191F021655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPTests" */;
 			buildPhases = (
+				1BFF032B6F37480BD8C9AB2D /* [CP] Check Pods Manifest.lock */,
 				A4D191D521655C6B0077788D /* Sources */,
 				A4D191D621655C6B0077788D /* Frameworks */,
 				A4D191D721655C6B0077788D /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4D191F321655C6B0077788D /* Build configuration list for PBXNativeTarget "STEM GAPUITests" */;
 			buildPhases = (
+				F388CB51309D008197722D1C /* [CP] Check Pods Manifest.lock */,
 				A4D191E021655C6B0077788D /* Sources */,
 				A4D191E121655C6B0077788D /* Frameworks */,
 				A4D191E221655C6B0077788D /* Resources */,
@@ -250,6 +294,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		058ECBA5FD328BDBAF21923F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STEM GAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BFF032B6F37480BD8C9AB2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STEM GAPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64E59C504E880345CB942E8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F388CB51309D008197722D1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STEM GAPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A4D191C121655C690077788D /* Sources */ = {
@@ -430,6 +551,7 @@
 		};
 		A4D191EE21655C6B0077788D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32FC4D18F22D5E99EBDB29BE /* Pods-STEM GAP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +569,7 @@
 		};
 		A4D191EF21655C6B0077788D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC552AFA27C3C95F8CF9B8E5 /* Pods-STEM GAP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +587,7 @@
 		};
 		A4D191F121655C6B0077788D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF9741E32A64999755EB716 /* Pods-STEM GAPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +608,7 @@
 		};
 		A4D191F221655C6B0077788D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE00F3EBACB1AD87E698E04 /* Pods-STEM GAPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +629,7 @@
 		};
 		A4D191F421655C6B0077788D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F49B2FB81707A871490845B /* Pods-STEM GAPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +649,7 @@
 		};
 		A4D191F521655C6B0077788D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F975E71C778846690A8404D /* Pods-STEM GAPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

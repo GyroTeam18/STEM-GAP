@@ -1,0 +1,6 @@
+framework module Pods_STEM_GAPUITests {
+  umbrella header "Pods-STEM GAPUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

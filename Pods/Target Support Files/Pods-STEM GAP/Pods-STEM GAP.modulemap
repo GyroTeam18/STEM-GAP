@@ -1,0 +1,6 @@
+framework module Pods_STEM_GAP {
+  umbrella header "Pods-STEM GAP-umbrella.h"
+
+  export *
+  module * { export * }
+}
