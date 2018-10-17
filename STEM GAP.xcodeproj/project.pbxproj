@@ -9,13 +9,22 @@
 /* Begin PBXBuildFile section */
 		3D6C8D16264C1E950EFFC0E8 /* Pods_STEM_GAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41737E4733B6D612E3D7DBB1 /* Pods_STEM_GAP.framework */; };
 		A0681B3ACEB804AF3AFD0714 /* Pods_STEM_GAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */; };
+		A406B80721778D9300431DB4 /* jeremy-galliani-697655-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */; };
+		A406B8092177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */; };
 		A4D191C921655C690077788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191C821655C690077788D /* AppDelegate.swift */; };
-		A4D191CB21655C690077788D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191CA21655C690077788D /* ViewController.swift */; };
 		A4D191CE21655C690077788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CC21655C690077788D /* Main.storyboard */; };
 		A4D191D021655C6B0077788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CF21655C6B0077788D /* Assets.xcassets */; };
 		A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191D121655C6B0077788D /* LaunchScreen.storyboard */; };
 		A4D191DE21655C6B0077788D /* STEM_GAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191DD21655C6B0077788D /* STEM_GAPTests.swift */; };
 		A4D191E921655C6B0077788D /* STEM_GAPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */; };
+		A4D557972175333A00FCCF7A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D557962175333A00FCCF7A /* WelcomeViewController.swift */; };
+		A4D557992175334B00FCCF7A /* Fact1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D557982175334B00FCCF7A /* Fact1ViewController.swift */; };
+		A4D5579B2175335B00FCCF7A /* Fact2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5579A2175335B00FCCF7A /* Fact2ViewController.swift */; };
+		A4D5579D2175337000FCCF7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5579C2175337000FCCF7A /* LoginViewController.swift */; };
+		A4D5579F2175338300FCCF7A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D5579E2175338300FCCF7A /* HomeViewController.swift */; };
+		A4D557A1217533AC00FCCF7A /* ElectricalEngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D557A0217533AC00FCCF7A /* ElectricalEngineeringViewController.swift */; };
+		A4D557A3217533C600FCCF7A /* ComputerScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D557A2217533C600FCCF7A /* ComputerScienceViewController.swift */; };
+		A4D557A5217533EF00FCCF7A /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D557A4217533EF00FCCF7A /* LinksViewController.swift */; };
 		BEB1E179BAF3B0C468AA2C79 /* Pods_STEM_GAPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 223BEA5565C2F0D650186EBD /* Pods_STEM_GAPUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +53,10 @@
 		41737E4733B6D612E3D7DBB1 /* Pods_STEM_GAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEM_GAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEM_GAPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F975E71C778846690A8404D /* Pods-STEM GAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPUITests/Pods-STEM GAPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash.jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash.jpg"; sourceTree = "<group>"; };
+		A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash (1).jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash (1).jpg"; sourceTree = "<group>"; };
 		A4D191C521655C690077788D /* STEM GAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM GAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191C821655C690077788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4D191CA21655C690077788D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A4D191CD21655C690077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4D191CF21655C6B0077788D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D191D221655C6B0077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +67,14 @@
 		A4D191E421655C6B0077788D /* STEM GAPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEM GAPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191E821655C6B0077788D /* STEM_GAPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEM_GAPUITests.swift; sourceTree = "<group>"; };
 		A4D191EA21655C6B0077788D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D557962175333A00FCCF7A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A4D557982175334B00FCCF7A /* Fact1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact1ViewController.swift; sourceTree = "<group>"; };
+		A4D5579A2175335B00FCCF7A /* Fact2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact2ViewController.swift; sourceTree = "<group>"; };
+		A4D5579C2175337000FCCF7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A4D5579E2175338300FCCF7A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A4D557A0217533AC00FCCF7A /* ElectricalEngineeringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricalEngineeringViewController.swift; sourceTree = "<group>"; };
+		A4D557A2217533C600FCCF7A /* ComputerScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerScienceViewController.swift; sourceTree = "<group>"; };
+		A4D557A4217533EF00FCCF7A /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		BC552AFA27C3C95F8CF9B8E5 /* Pods-STEM GAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAP.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP.release.xcconfig"; sourceTree = "<group>"; };
 		BCE00F3EBACB1AD87E698E04 /* Pods-STEM GAPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPTests/Pods-STEM GAPTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,11 +147,20 @@
 			isa = PBXGroup;
 			children = (
 				A4D191C821655C690077788D /* AppDelegate.swift */,
-				A4D191CA21655C690077788D /* ViewController.swift */,
 				A4D191CC21655C690077788D /* Main.storyboard */,
 				A4D191CF21655C6B0077788D /* Assets.xcassets */,
 				A4D191D121655C6B0077788D /* LaunchScreen.storyboard */,
+				A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */,
+				A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */,
 				A4D191D421655C6B0077788D /* Info.plist */,
+				A4D557962175333A00FCCF7A /* WelcomeViewController.swift */,
+				A4D557982175334B00FCCF7A /* Fact1ViewController.swift */,
+				A4D5579A2175335B00FCCF7A /* Fact2ViewController.swift */,
+				A4D5579C2175337000FCCF7A /* LoginViewController.swift */,
+				A4D5579E2175338300FCCF7A /* HomeViewController.swift */,
+				A4D557A0217533AC00FCCF7A /* ElectricalEngineeringViewController.swift */,
+				A4D557A2217533C600FCCF7A /* ComputerScienceViewController.swift */,
+				A4D557A4217533EF00FCCF7A /* LinksViewController.swift */,
 			);
 			path = "STEM GAP";
 			sourceTree = "<group>";
@@ -273,9 +300,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A406B80721778D9300431DB4 /* jeremy-galliani-697655-unsplash.jpg in Resources */,
 				A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */,
 				A4D191D021655C6B0077788D /* Assets.xcassets in Resources */,
 				A4D191CE21655C690077788D /* Main.storyboard in Resources */,
+				A406B8092177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,8 +406,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D191CB21655C690077788D /* ViewController.swift in Sources */,
 				A4D191C921655C690077788D /* AppDelegate.swift in Sources */,
+				A4D557972175333A00FCCF7A /* WelcomeViewController.swift in Sources */,
+				A4D557992175334B00FCCF7A /* Fact1ViewController.swift in Sources */,
+				A4D557A1217533AC00FCCF7A /* ElectricalEngineeringViewController.swift in Sources */,
+				A4D557A5217533EF00FCCF7A /* LinksViewController.swift in Sources */,
+				A4D5579D2175337000FCCF7A /* LoginViewController.swift in Sources */,
+				A4D5579B2175335B00FCCF7A /* Fact2ViewController.swift in Sources */,
+				A4D557A3217533C600FCCF7A /* ComputerScienceViewController.swift in Sources */,
+				A4D5579F2175338300FCCF7A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
