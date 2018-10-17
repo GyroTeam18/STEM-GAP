@@ -10,8 +10,29 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    
+    @IBOutlet weak var EEbutton: UIButton!
+    @IBOutlet weak var CSButton: UIButton!
+    @IBOutlet weak var LinksButton: UIButton!
+    
+    
+    @IBAction func EEButtonPress(_ sender: Any) {
+        performSegue(withIdentifier: "EESegue", sender: self)
+    }
+    
+    @IBAction func CSButtonPress(_ sender: Any) {
+    }
+    
+    @IBAction func LinksButtonPress(_ sender: Any) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        EEbutton.layer.cornerRadius = 5
+        CSButton.layer.cornerRadius = 5
+        LinksButton.layer.cornerRadius = 5
 
         // Do any additional setup after loading the view.
     }
