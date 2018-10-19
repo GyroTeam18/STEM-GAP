@@ -33,9 +33,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKb-KH-BX5">
-                                <rect key="frame" x="171" y="554" width="32" height="30"/>
+                                <rect key="frame" x="165" y="581" width="44" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="lz5-Fu-Vcy" kind="show" id="hzY-XS-tpM"/>
                                 </connections>
@@ -154,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYR-AS-MDH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1143" y="1536"/>
+            <point key="canvasLocation" x="1142" y="1590"/>
         </scene>
         <!--Computer Science-->
         <scene sceneID="OPh-J0-0At">
@@ -170,7 +173,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Atw-vc-VyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2941.5999999999999" y="1535.9820089955024"/>
+            <point key="canvasLocation" x="2942" y="1590"/>
         </scene>
         <!--Links-->
         <scene sceneID="OhH-Ep-Kqa">
@@ -186,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBP-oo-sMj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4764" y="1536"/>
+            <point key="canvasLocation" x="4764" y="1590"/>
         </scene>
         <!--Login-->
         <scene sceneID="SdP-YN-2Rb">
@@ -221,6 +224,9 @@
                                 <state key="normal" title="SIGN IN!">
                                     <color key="titleColor" red="0.99144405126571655" green="0.93762451410293579" blue="0.016444399952888489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onsignin:" destination="rYz-PH-TGo" eventType="touchUpInside" id="IUI-wf-cpC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqu-dn-UTJ">
                                 <rect key="frame" x="130" y="421" width="115" height="38"/>
@@ -229,6 +235,9 @@
                                 <state key="normal" title="JOIN US!">
                                     <color key="titleColor" red="0.99144405126571655" green="0.93762451410293579" blue="0.016444399952888489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="onjoinus:" destination="rYz-PH-TGo" eventType="touchUpInside" id="JtQ-dN-DMq"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaB-SC-Doa">
                                 <rect key="frame" x="143" y="162" width="89" height="18"/>
@@ -250,7 +259,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="M5L-TI-Ra4"/>
                     <connections>
-                        <segue destination="hl2-gp-MuH" kind="presentation" id="HQ9-27-PVW"/>
+                        <outlet property="passwordField" destination="qUK-6D-Nul" id="CXx-yd-pfY"/>
+                        <outlet property="usernameField" destination="Z2X-Qm-2JK" id="U7b-YY-jI2"/>
+                        <segue destination="hl2-gp-MuH" kind="presentation" identifier="loginSegue" id="HQ9-27-PVW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M4F-JV-r0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -278,7 +289,7 @@
                                 </state>
                                 <connections>
                                     <action selector="CSButtonPress:" destination="xcm-wU-huZ" eventType="touchUpInside" id="kp7-TI-qw0"/>
-                                    <segue destination="DAq-MO-GCo" kind="show" identifier="CESegue" id="wdV-lh-Tw3"/>
+                                    <segue destination="DAq-MO-GCo" kind="show" identifier="CSSegue" id="wdV-lh-Tw3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Dg-uc-u6Q">
@@ -305,11 +316,18 @@
                                     <segue destination="OYP-lU-XbB" kind="show" identifier="EESegue" id="puP-hX-xCR"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose Your Path!" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="apf-Ys-W4j">
+                                <rect key="frame" x="62" y="138" width="251" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="yjT-Q6-BxL"/>
                     </view>
-                    <navigationItem key="navigationItem" id="bM3-Rh-sbv"/>
+                    <navigationItem key="navigationItem" title="HOME" id="bM3-Rh-sbv"/>
                     <connections>
                         <outlet property="CSButton" destination="7ZK-Ba-C6h" id="Xc6-wo-9DA"/>
                         <outlet property="EEbutton" destination="Rp0-6S-mv6" id="UXE-J4-dob"/>
@@ -350,9 +368,12 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKh-JZ-6rh">
-                                <rect key="frame" x="171" y="575" width="32" height="30"/>
+                                <rect key="frame" x="166" y="578" width="44" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="NAs-hF-ixq" kind="show" id="689-dk-pv0"/>
                                 </connections>
@@ -397,9 +418,12 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6B-Yb-gBm">
-                                <rect key="frame" x="171" y="548" width="32" height="30"/>
+                                <rect key="frame" x="169" y="581" width="44" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Next"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="rYz-PH-TGo" kind="show" id="5fn-ob-Lmi"/>
                                 </connections>
@@ -484,7 +508,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqf-if-Yow" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2004" y="1536"/>
+            <point key="canvasLocation" x="2004" y="1590"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EM5-77-hb9">
@@ -502,7 +526,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NN4-SQ-Qbe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3870" y="1536"/>
+            <point key="canvasLocation" x="3870" y="1590"/>
         </scene>
     </scenes>
     <resources>

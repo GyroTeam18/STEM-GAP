@@ -21,10 +21,10 @@ class HomeViewController: UIViewController {
     }
     
     @IBAction func CSButtonPress(_ sender: Any) {
-    }
+        performSegue(withIdentifier: "CSSegue", sender: self)    }
     
     @IBAction func LinksButtonPress(_ sender: Any) {
-    }
+        performSegue(withIdentifier: "LinksSegue", sender: self)    }
     
     
     override func viewDidLoad() {
