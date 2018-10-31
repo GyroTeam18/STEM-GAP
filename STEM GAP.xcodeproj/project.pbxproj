@@ -11,6 +11,8 @@
 		A0681B3ACEB804AF3AFD0714 /* Pods_STEM_GAPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47962105ED10DEBE7A63D352 /* Pods_STEM_GAPTests.framework */; };
 		A406B80721778D9300431DB4 /* jeremy-galliani-697655-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */; };
 		A406B8092177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */; };
+		A46128BF21895D730008FA9E /* Add1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46128BE21895D730008FA9E /* Add1ViewController.swift */; };
+		A46128C1218960110008FA9E /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */; };
 		A4D191C921655C690077788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191C821655C690077788D /* AppDelegate.swift */; };
 		A4D191CE21655C690077788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CC21655C690077788D /* Main.storyboard */; };
 		A4D191D021655C6B0077788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CF21655C6B0077788D /* Assets.xcassets */; };
@@ -55,6 +57,9 @@
 		6F975E71C778846690A8404D /* Pods-STEM GAPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEM GAPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STEM GAPUITests/Pods-STEM GAPUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash.jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash.jpg"; sourceTree = "<group>"; };
 		A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash (1).jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash (1).jpg"; sourceTree = "<group>"; };
+		A46128BE21895D730008FA9E /* Add1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add1ViewController.swift; sourceTree = "<group>"; };
+		A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = ../../../Downloads/add1_assets/Font/HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+		A46128C2218989C60008FA9E /* Add1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Add1-Bridging-Header.h"; sourceTree = "<group>"; };
 		A4D191C521655C690077788D /* STEM GAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM GAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191C821655C690077788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D191CD21655C690077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -123,6 +128,7 @@
 		A4D191BC21655C690077788D = {
 			isa = PBXGroup;
 			children = (
+				A46128C2218989C60008FA9E /* Add1-Bridging-Header.h */,
 				A4D191C721655C690077788D /* STEM GAP */,
 				A4D191DC21655C6B0077788D /* STEM GAPTests */,
 				A4D191E721655C6B0077788D /* STEM GAPUITests */,
@@ -153,6 +159,7 @@
 				A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */,
 				A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */,
 				A4D191D421655C6B0077788D /* Info.plist */,
+				A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */,
 				A4D557962175333A00FCCF7A /* WelcomeViewController.swift */,
 				A4D557982175334B00FCCF7A /* Fact1ViewController.swift */,
 				A4D5579A2175335B00FCCF7A /* Fact2ViewController.swift */,
@@ -161,6 +168,7 @@
 				A4D557A0217533AC00FCCF7A /* ElectricalEngineeringViewController.swift */,
 				A4D557A2217533C600FCCF7A /* ComputerScienceViewController.swift */,
 				A4D557A4217533EF00FCCF7A /* LinksViewController.swift */,
+				A46128BE21895D730008FA9E /* Add1ViewController.swift */,
 			);
 			path = "STEM GAP";
 			sourceTree = "<group>";
@@ -300,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46128C1218960110008FA9E /* HVD_Comic_Serif_Pro.otf in Resources */,
 				A406B80721778D9300431DB4 /* jeremy-galliani-697655-unsplash.jpg in Resources */,
 				A4D191D321655C6B0077788D /* LaunchScreen.storyboard in Resources */,
 				A4D191D021655C6B0077788D /* Assets.xcassets in Resources */,
@@ -369,11 +378,13 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-STEM GAP/Pods-STEM GAP-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46128BF21895D730008FA9E /* Add1ViewController.swift in Sources */,
 				A4D191C921655C690077788D /* AppDelegate.swift in Sources */,
 				A4D557972175333A00FCCF7A /* WelcomeViewController.swift in Sources */,
 				A4D557992175334B00FCCF7A /* Fact1ViewController.swift in Sources */,
@@ -598,6 +610,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -616,6 +629,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Brittany-Dail.STEM-GAP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Add1-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

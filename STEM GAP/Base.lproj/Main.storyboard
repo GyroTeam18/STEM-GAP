@@ -8,6 +8,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="HVD_Comic_Serif_Pro.otf">
+            <string>HVDComicSerifPro</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Welcome-->
         <scene sceneID="tne-QT-ifu">
@@ -20,7 +25,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M0P-WL-HI2">
                                 <rect key="frame" x="67" y="257" width="240" height="244"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Welcome to STEM GAP! This app is designed to get you guys excited in STEM( Science, Technology, Engineering, and Math) fields that you might not know too much about!</string>
+                                <string key="text">Welcome to STEM GAP! This app is designed to get you excited in STEM( Science, Technology, Engineering, and Math) fields that you might not know too much about!</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -53,35 +58,120 @@
             </objects>
             <point key="canvasLocation" x="1412" y="134"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="WKM-6B-60d">
-            <objects>
-                <viewController id="Dk2-8b-IrC" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="B9i-cP-fqN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.91998636722564697" green="0.50875943899154663" blue="0.35806053876876831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="aa9-6S-QQC"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BZr-Tt-gZY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="286" y="2248"/>
-        </scene>
-        <!--View Controller-->
+        <!--Add1-->
         <scene sceneID="oqv-aX-fDy">
             <objects>
-                <viewController id="IOM-lh-U63" sceneMemberID="viewController">
+                <viewController title="Add1" id="IOM-lh-U63" customClass="Add1ViewController" customModule="STEM_GAP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xFp-7l-qDf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.92409223318099976" green="0.54773223400115967" blue="0.39299726486206055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="YZc-ay-sJa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="time" translatesAutoresizingMaskIntoConstraints="NO" id="1by-v1-h1j">
+                                <rect key="frame" x="210" y="20" width="149" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6Ii-sM-eMw"/>
+                                    <constraint firstAttribute="width" constant="149" id="qYq-gk-hlD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="01:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3fe-kn-p8B">
+                                <rect key="frame" x="244" y="31" width="58" height="28"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="number" translatesAutoresizingMaskIntoConstraints="NO" id="EFg-R6-Iek">
+                                <rect key="frame" x="36.5" y="104" width="302" height="129"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="7hv-ad-Phm"/>
+                                    <constraint firstAttribute="height" constant="129" id="q86-rJ-uyD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VRf-F9-fLj">
+                                <rect key="frame" x="113" y="127" width="149" height="83"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1234" textAlignment="center" minimumFontSize="17" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="8Bn-6c-RYS">
+                                <rect key="frame" x="111" y="249" width="153" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="OvF-I9-1wG"/>
+                                    <constraint firstAttribute="width" constant="153" id="nTm-me-WUp"/>
+                                </constraints>
+                                <color key="textColor" red="0.41176470588235292" green="0.6588235294117647" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="70"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add 1 to each of the digits. So, 1357 becomes 2468." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NN7-hc-1gp">
+                                <rect key="frame" x="29.5" y="535" width="316" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JEo-b3-V5a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="score" translatesAutoresizingMaskIntoConstraints="NO" id="jEu-5C-G9e">
+                                <rect key="frame" x="25" y="20" width="149" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="Gwp-hc-7hj"/>
+                                    <constraint firstAttribute="height" constant="50" id="LkS-Yj-win"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uOV-UB-lbA">
+                                <rect key="frame" x="68" y="31" width="47" height="26.5"/>
+                                <fontDescription key="fontDescription" name="HVDComicSerifPro" family="HVD Comic Serif Pro" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NN7-hc-1gp" firstAttribute="centerX" secondItem="VRf-F9-fLj" secondAttribute="centerX" id="4Lv-wa-AlM"/>
+                            <constraint firstItem="NN7-hc-1gp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="T8N-Jc-6XC" secondAttribute="leading" id="7TI-Iw-ZZH"/>
+                            <constraint firstItem="3fe-kn-p8B" firstAttribute="top" secondItem="T8N-Jc-6XC" secondAttribute="top" constant="11" id="7dh-Cs-Vjd"/>
+                            <constraint firstItem="3fe-kn-p8B" firstAttribute="centerY" secondItem="1by-v1-h1j" secondAttribute="centerY" id="AQP-oL-rNR"/>
+                            <constraint firstItem="EFg-R6-Iek" firstAttribute="centerX" secondItem="xFp-7l-qDf" secondAttribute="centerX" id="Bbq-QN-axI"/>
+                            <constraint firstItem="T8N-Jc-6XC" firstAttribute="trailing" secondItem="3fe-kn-p8B" secondAttribute="trailing" constant="73" id="EMa-Gd-PZu"/>
+                            <constraint firstItem="8Bn-6c-RYS" firstAttribute="centerX" secondItem="xFp-7l-qDf" secondAttribute="centerX" id="FS8-Q2-Ep8"/>
+                            <constraint firstItem="jEu-5C-G9e" firstAttribute="top" secondItem="T8N-Jc-6XC" secondAttribute="top" id="FwH-9h-ocN"/>
+                            <constraint firstItem="NN7-hc-1gp" firstAttribute="centerX" secondItem="8Bn-6c-RYS" secondAttribute="centerX" id="MkF-r9-xjb"/>
+                            <constraint firstItem="VRf-F9-fLj" firstAttribute="centerY" secondItem="EFg-R6-Iek" secondAttribute="centerY" id="OGR-mN-QyF"/>
+                            <constraint firstItem="NN7-hc-1gp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="T8N-Jc-6XC" secondAttribute="leading" id="OT6-dY-JLv"/>
+                            <constraint firstItem="uOV-UB-lbA" firstAttribute="leading" secondItem="T8N-Jc-6XC" secondAttribute="leading" constant="68" id="OZU-uE-zQ0"/>
+                            <constraint firstItem="T8N-Jc-6XC" firstAttribute="bottom" secondItem="NN7-hc-1gp" secondAttribute="bottom" constant="88" id="Qzd-xS-8PL"/>
+                            <constraint firstItem="8Bn-6c-RYS" firstAttribute="top" secondItem="EFg-R6-Iek" secondAttribute="bottom" constant="16" id="Zzu-hM-OoE"/>
+                            <constraint firstItem="T8N-Jc-6XC" firstAttribute="bottom" secondItem="NN7-hc-1gp" secondAttribute="bottom" constant="88" id="bbP-mo-0Ib"/>
+                            <constraint firstItem="YZc-ay-sJa" firstAttribute="trailing" secondItem="T8N-Jc-6XC" secondAttribute="trailing" id="ea6-PW-Hc6"/>
+                            <constraint firstItem="T8N-Jc-6XC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NN7-hc-1gp" secondAttribute="trailing" id="fLd-qz-Hp8"/>
+                            <constraint firstItem="jEu-5C-G9e" firstAttribute="leading" secondItem="T8N-Jc-6XC" secondAttribute="leading" constant="25" id="fPa-E3-dKY"/>
+                            <constraint firstItem="YZc-ay-sJa" firstAttribute="top" secondItem="xFp-7l-qDf" secondAttribute="top" id="gKK-dg-2gv"/>
+                            <constraint firstItem="T8N-Jc-6XC" firstAttribute="trailing" secondItem="1by-v1-h1j" secondAttribute="trailing" constant="16" id="ilz-H5-MvO"/>
+                            <constraint firstItem="8Bn-6c-RYS" firstAttribute="top" secondItem="VRf-F9-fLj" secondAttribute="bottom" constant="39" id="jMG-gs-vRa"/>
+                            <constraint firstItem="1by-v1-h1j" firstAttribute="top" secondItem="T8N-Jc-6XC" secondAttribute="top" id="mbL-DC-jkQ"/>
+                            <constraint firstItem="uOV-UB-lbA" firstAttribute="top" secondItem="T8N-Jc-6XC" secondAttribute="top" constant="11" id="p6Q-mt-iCv"/>
+                            <constraint firstItem="1by-v1-h1j" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uOV-UB-lbA" secondAttribute="trailing" constant="8" symbolic="YES" id="pU5-cB-3Ag"/>
+                            <constraint firstItem="YZc-ay-sJa" firstAttribute="bottom" secondItem="T8N-Jc-6XC" secondAttribute="bottom" id="pgc-Qc-ptd"/>
+                            <constraint firstItem="YZc-ay-sJa" firstAttribute="leading" secondItem="T8N-Jc-6XC" secondAttribute="leading" id="qiU-IY-6Jz"/>
+                            <constraint firstItem="EFg-R6-Iek" firstAttribute="top" secondItem="jEu-5C-G9e" secondAttribute="bottom" constant="34" id="ulF-tz-9ml"/>
+                            <constraint firstItem="VRf-F9-fLj" firstAttribute="centerX" secondItem="EFg-R6-Iek" secondAttribute="centerX" id="xdf-8E-r1L"/>
+                            <constraint firstItem="3fe-kn-p8B" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jEu-5C-G9e" secondAttribute="trailing" constant="8" symbolic="YES" id="zew-b8-XIo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="T8N-Jc-6XC"/>
                     </view>
+                    <connections>
+                        <outlet property="inputLabel" destination="8Bn-6c-RYS" id="a2u-w2-NjI"/>
+                        <outlet property="numbersLabel" destination="VRf-F9-fLj" id="6dM-BA-Xhb"/>
+                        <outlet property="scoreLabel" destination="uOV-UB-lbA" id="aeH-Ma-dAX"/>
+                        <outlet property="timeLabel" destination="3fe-kn-p8B" id="CBo-9o-Ite"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xkX-aI-aHS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1142" y="2248"/>
+            <point key="canvasLocation" x="1141.5999999999999" y="2332.9835082458771"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Zgw-He-hJn">
@@ -150,14 +240,55 @@
                     <view key="view" contentMode="scaleToFill" id="Oqh-ZF-FaD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="jeremy-galliani-697655-unsplash (1).jpg" translatesAutoresizingMaskIntoConstraints="NO" id="x6g-cw-aZ2">
+                                <rect key="frame" x="0.0" y="-7" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="So You Want To Be An Electrical Engineer?" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="maF-a7-0dw">
+                                <rect key="frame" x="0.0" y="96" width="376" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sbn-zy-bPG">
+                                <rect key="frame" x="16" y="168" width="343" height="185"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Electrical engineering is the name for the field in which people invent, create, improve and fix electronic devices, tools and equipment. Electrical engineers use lots of math, science and research to develop all kinds of small and large devices and the electrical circuits that help them run. </string>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fXF-x2-Lxn">
+                                <rect key="frame" x="87" y="561" width="201" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="33"/>
+                                <state key="normal" title="Play Add-1!">
+                                    <color key="titleColor" red="0.99144405126571655" green="0.93762451410293579" blue="0.016444399952888489" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="Add1Button:" destination="OYP-lU-XbB" eventType="touchUpInside" id="ecv-aP-6Dp"/>
+                                    <segue destination="IOM-lh-U63" kind="presentation" identifier="Add1segue" id="Iip-MA-Hri"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ydq-pl-6OM">
+                                <rect key="frame" x="67" y="389" width="240" height="139"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Think you may have what it takes to become an Electrical Engineer?  Prove it! Let's first start out with testing how quick your brain works!</string>
+                                <fontDescription key="fontDescription" name="Copperplate-Bold" family="Copperplate" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" red="0.96717983484268188" green="0.55916768312454224" blue="0.36714178323745728" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="8OL-ac-9UD"/>
                     </view>
-                    <navigationItem key="navigationItem" id="E6G-aA-E41"/>
+                    <navigationItem key="navigationItem" title="Electrial Engineering" id="E6G-aA-E41"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYR-AS-MDH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1142" y="1590"/>
+            <point key="canvasLocation" x="1141.5999999999999" y="1589.9550224887557"/>
         </scene>
         <!--Computer Science-->
         <scene sceneID="OPh-J0-0At">
@@ -490,7 +621,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e99-QV-Nyb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="286" y="1536"/>
+            <point key="canvasLocation" x="286" y="1590"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BUw-pz-Dc8">
@@ -530,7 +661,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="375" height="667"/>
+        <image name="input" width="256" height="109"/>
         <image name="jeremy-galliani-697655-unsplash (1).jpg" width="2988" height="5312"/>
+        <image name="number" width="302" height="129"/>
+        <image name="score" width="149" height="50"/>
+        <image name="time" width="149" height="50"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CzE-qi-N3h"/>

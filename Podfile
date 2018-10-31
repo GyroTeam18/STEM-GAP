@@ -8,11 +8,13 @@ target 'STEM GAP' do
 
   # Pods for STEM GAP
 	pod 'Parse'
-
+    pod 'MBProgressHUD', '1.0.0'
+    
   target 'STEM GAPTests' do
     inherit! :search_paths
     # Pods for testing
   end
+
 
   target 'STEM GAPUITests' do
     inherit! :search_paths
