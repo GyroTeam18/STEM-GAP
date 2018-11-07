@@ -10,11 +10,7 @@ import UIKit
 
 class ElectricalEngineeringViewController: UIViewController {
 
-    
-    @IBAction func Add1Button(_ sender: Any) {
-        performSegue(withIdentifier: "Add1segue", sender: self)
-    }
-    
+   
     
   
     override func viewDidLoad() {

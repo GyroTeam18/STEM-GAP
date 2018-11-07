@@ -9,11 +9,17 @@
 import UIKit
 
 class Fact1ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var GifView1: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    
 
         // Do any additional setup after loading the view.
+        
+        GifView1.loadGif(name: "scared baby")
     }
     
 

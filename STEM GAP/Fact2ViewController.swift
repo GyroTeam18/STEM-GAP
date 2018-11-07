@@ -9,11 +9,16 @@
 import UIKit
 
 class Fact2ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var GifView2: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        GifView2.loadGif(name: "bright-eyes")
     }
     
 

@@ -9,7 +9,10 @@
 import UIKit
 
 class WelcomeViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var STEMimage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

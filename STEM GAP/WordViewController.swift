@@ -9,7 +9,13 @@
 import UIKit
 
 class WordViewController: UIViewController {
-
+    
+    
+    
+    var D1:[String:Bool] = ["circuit": true, "sausage": false]
+    var D2:[String:String] = ["circuit":"etc."]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

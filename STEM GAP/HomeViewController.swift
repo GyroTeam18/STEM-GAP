@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class HomeViewController: UIViewController {
 
@@ -16,15 +17,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var LinksButton: UIButton!
     
     
-    @IBAction func EEButtonPress(_ sender: Any) {
-        performSegue(withIdentifier: "EESegue", sender: self)
-    }
-    
-    @IBAction func CSButtonPress(_ sender: Any) {
-        performSegue(withIdentifier: "CSSegue", sender: self)    }
-    
-    @IBAction func LinksButtonPress(_ sender: Any) {
-        performSegue(withIdentifier: "LinksSegue", sender: self)    }
+
+    @IBAction func Logout(_ sender: Any) {
+        PFUser.logOutInBackground(block: { (error) in
+            if let error = error {
+                print(error.localizedDescription)
+            } else {
+                print("Successful loggout")
+                self.dismiss(animated: true, completion: nil)
+            }
+        })
+            
+        }
     
     
     override func viewDidLoad() {
