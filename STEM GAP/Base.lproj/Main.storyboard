@@ -190,13 +190,19 @@
                     <view key="view" contentMode="scaleToFill" id="3cb-KO-yrx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nicolas-thomas-540353-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="m7C-pA-crZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="wsg-qc-00j"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ea-ZO-nf8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1647" y="2382"/>
+            <point key="canvasLocation" x="1645.5999999999999" y="2381.5592203898054"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Zgw-He-hJn">
@@ -381,6 +387,12 @@
                     <view key="view" contentMode="scaleToFill" id="pep-e9-2GQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="markus-spiske-777055-unsplash.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tSJ-hH-h1P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.24743896722793579" green="0.96443861722946167" blue="0.25301402807235718" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="sFs-F8-yMj"/>
                     </view>
@@ -390,7 +402,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Atw-vc-VyG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3287" y="1639"/>
+            <point key="canvasLocation" x="3285.5999999999999" y="1638.5307346326838"/>
         </scene>
         <!--Links-->
         <scene sceneID="OhH-Ep-Kqa">
@@ -732,7 +744,9 @@
         <image name="hbcu.jpeg" width="275" height="183"/>
         <image name="input" width="256" height="109"/>
         <image name="jeremy-galliani-697655-unsplash.jpg" width="2988" height="5312"/>
+        <image name="markus-spiske-777055-unsplash.jpg" width="3840" height="5760"/>
         <image name="msubear.png" width="200" height="200"/>
+        <image name="nicolas-thomas-540353-unsplash.jpg" width="3888" height="2592"/>
         <image name="number" width="302" height="129"/>
         <image name="score" width="149" height="50"/>
         <image name="stemstudents.jpeg" width="254" height="198"/>

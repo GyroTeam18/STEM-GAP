@@ -12,6 +12,8 @@
 		A406B80721778D9300431DB4 /* jeremy-galliani-697655-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */; };
 		A406B8092177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */; };
 		A40ECEEB2190AF1200E2B2EA /* STEMlinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40ECEEA2190AF1200E2B2EA /* STEMlinkViewController.swift */; };
+		A410A5FC219CA341008CC13D /* electrical wallpaper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A410A5FB219CA341008CC13D /* electrical wallpaper.jpeg */; };
+		A410A5FE219CA4D7008CC13D /* markus-spiske-777055-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A410A5FD219CA4D6008CC13D /* markus-spiske-777055-unsplash.jpg */; };
 		A45337DA2193389900F6FD12 /* Swift+gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45337D92193389900F6FD12 /* Swift+gif.swift */; };
 		A45337DC21933B0E00F6FD12 /* scared baby.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45337DB21933B0E00F6FD12 /* scared baby.gif */; };
 		A45337DE21933B9700F6FD12 /* bright-eyes.gif in Resources */ = {isa = PBXBuildFile; fileRef = A45337DD21933B9700F6FD12 /* bright-eyes.gif */; };
@@ -23,6 +25,7 @@
 		A46128BF21895D730008FA9E /* Add1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46128BE21895D730008FA9E /* Add1ViewController.swift */; };
 		A46128C1218960110008FA9E /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */; };
 		A48D4F7F21939336002DA9A9 /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48D4F7E21939336002DA9A9 /* WordViewController.swift */; };
+		A4AE2E29219CC92200CAF661 /* nicolas-thomas-540353-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A4AE2E28219CC92100CAF661 /* nicolas-thomas-540353-unsplash.jpg */; };
 		A4D191C921655C690077788D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D191C821655C690077788D /* AppDelegate.swift */; };
 		A4D191CE21655C690077788D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CC21655C690077788D /* Main.storyboard */; };
 		A4D191D021655C6B0077788D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D191CF21655C6B0077788D /* Assets.xcassets */; };
@@ -68,6 +71,8 @@
 		A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash.jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash.jpg"; sourceTree = "<group>"; };
 		A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jeremy-galliani-697655-unsplash (1).jpg"; path = "../../../Downloads/jeremy-galliani-697655-unsplash (1).jpg"; sourceTree = "<group>"; };
 		A40ECEEA2190AF1200E2B2EA /* STEMlinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEMlinkViewController.swift; sourceTree = "<group>"; };
+		A410A5FB219CA341008CC13D /* electrical wallpaper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "electrical wallpaper.jpeg"; sourceTree = "<group>"; };
+		A410A5FD219CA4D6008CC13D /* markus-spiske-777055-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "markus-spiske-777055-unsplash.jpg"; sourceTree = "<group>"; };
 		A45337D92193389900F6FD12 /* Swift+gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+gif.swift"; sourceTree = "<group>"; };
 		A45337DB21933B0E00F6FD12 /* scared baby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "scared baby.gif"; sourceTree = "<group>"; };
 		A45337DD21933B9700F6FD12 /* bright-eyes.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bright-eyes.gif"; sourceTree = "<group>"; };
@@ -80,6 +85,7 @@
 		A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = ../../../Downloads/add1_assets/Font/HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 		A46128C2218989C60008FA9E /* Add1-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Add1-Bridging-Header.h"; sourceTree = "<group>"; };
 		A48D4F7E21939336002DA9A9 /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		A4AE2E28219CC92100CAF661 /* nicolas-thomas-540353-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nicolas-thomas-540353-unsplash.jpg"; sourceTree = "<group>"; };
 		A4D191C521655C690077788D /* STEM GAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEM GAP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D191C821655C690077788D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4D191CD21655C690077788D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -185,7 +191,10 @@
 				A45337DB21933B0E00F6FD12 /* scared baby.gif */,
 				A45337E72193409C00F6FD12 /* topschools.jpeg */,
 				A406B8082177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg */,
+				A4AE2E28219CC92100CAF661 /* nicolas-thomas-540353-unsplash.jpg */,
 				A406B80621778D9200431DB4 /* jeremy-galliani-697655-unsplash.jpg */,
+				A410A5FD219CA4D6008CC13D /* markus-spiske-777055-unsplash.jpg */,
+				A410A5FB219CA341008CC13D /* electrical wallpaper.jpeg */,
 				A4D191D421655C6B0077788D /* Info.plist */,
 				A46128C0218960110008FA9E /* HVD_Comic_Serif_Pro.otf */,
 				A4D557962175333A00FCCF7A /* WelcomeViewController.swift */,
@@ -347,6 +356,9 @@
 				A4D191D021655C6B0077788D /* Assets.xcassets in Resources */,
 				A4D191CE21655C690077788D /* Main.storyboard in Resources */,
 				A45337DE21933B9700F6FD12 /* bright-eyes.gif in Resources */,
+				A410A5FE219CA4D7008CC13D /* markus-spiske-777055-unsplash.jpg in Resources */,
+				A410A5FC219CA341008CC13D /* electrical wallpaper.jpeg in Resources */,
+				A4AE2E29219CC92200CAF661 /* nicolas-thomas-540353-unsplash.jpg in Resources */,
 				A45337E021933C7D00F6FD12 /* STEM-logo-1.jpg in Resources */,
 				A406B8092177904D00431DB4 /* jeremy-galliani-697655-unsplash (1).jpg in Resources */,
 				A45337E221933EB800F6FD12 /* msubear.png in Resources */,
