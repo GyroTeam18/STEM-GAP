@@ -1,4 +1,4 @@
-Group Project STEM GAP
+correct Group Project STEM GAP
 
 STEM GAP is an iOS application designed to inform middle school and high school students about STEM related fields including electrical engineering and computer science. Students will learn specifics how what each field does and how it can relate to their own lives by playing games and completing questionaries related to that certain field. 
 
