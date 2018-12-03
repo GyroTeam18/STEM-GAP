@@ -213,10 +213,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I7o-K5-rbK">
-                                <rect key="frame" x="67" y="140" width="240" height="128"/>
+                                <rect key="frame" x="16" y="0.0" width="343" height="392"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Github- is a web-based hosting service for version control using Git, that allows people to save and upload repositories of their work. The company was found in 2007 in San Francisco.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -227,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ic9-zK-37o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3086" y="2333"/>
+            <point key="canvasLocation" x="3085.5999999999999" y="2332.9835082458771"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3h7-fh-amo">
@@ -236,13 +236,19 @@
                     <view key="view" contentMode="scaleToFill" id="cRe-uc-Th3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Github homepage" translatesAutoresizingMaskIntoConstraints="NO" id="gMw-9O-kmp">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.25068807601928711" green="0.73911577463150024" blue="0.25781551003456116" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="7Sd-n0-Cqa"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JAf-oE-DQf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3858" y="2333"/>
+            <point key="canvasLocation" x="3856.8000000000002" y="2332.9835082458771"/>
         </scene>
         <!--Mlink View Controller-->
         <scene sceneID="6gV-CS-Y36">
@@ -749,6 +755,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Github homepage" width="1600" height="1037"/>
         <image name="STEM-logo-1.jpg" width="2100" height="900"/>
         <image name="background" width="375" height="667"/>
         <image name="hbcu.jpeg" width="275" height="183"/>
