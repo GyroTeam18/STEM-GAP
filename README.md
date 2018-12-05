@@ -47,7 +47,7 @@ While creating STEM Gap, there were a few issues. The most difficult issue was m
 
 ## License
 
-    Copyright [2018] [Brittany Dail, Jamilla, Josh Gist, Johnathon]
+    Copyright [2018] [Brittany Dail, Jamila Duke-Smith, Josh Gist, Johnathon Ibironke]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
